@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker login -u $REGISTRY_USER -p $REGISTRY_PASS
+docker login -u lycheebot -p $LYCHEEBOT_PASS
 
 #echo "TRAVIS_BRANCH: $TRAVIS_BRANCH"
 #echo "TRAVIS_TAG: $TRAVIS_TAG"
